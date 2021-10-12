@@ -10,7 +10,7 @@ def main():
         topTracks.append(myConnection.getAnArtistsTopTracks(i[1]))
     newPlaylistId = myConnection.createPlaylist()
     addTopTracks = myConnection.addSongsToPlaylist(newPlaylistId, topTracks)
-    print("hello world")
+    print("goodbye world")
 
 if __name__ == "__main__":
     main()
